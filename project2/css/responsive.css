@@ -1,0 +1,48 @@
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+@media (min-width: 320px) and (max-width:575px)  { 
+    .text {
+        font-size: 22px;
+        font-weight: 600;
+        margin-top: 36px;
+        margin-bottom: 28px;
+        padding: 48px 0px;
+    }
+    .container{
+        width: 100%;
+       
+    }
+    .text-2 {
+        font-size: 13px;
+        font-weight: 400;
+        text-align: justify;
+        padding-right: 21px;
+    }
+    .btm button {
+        width: 112px;
+        height: 37px;
+        margin-left: 26px;
+        border: none;
+    }
+    .btm button a{
+        font-size: 12px;
+    }
+    .shadow-img {
+        margin-left: 28px;
+        margin-top: -10px;
+    }
+  }
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {   }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {   }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {   }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and   */
+@media (min-width: 1400px) {   }

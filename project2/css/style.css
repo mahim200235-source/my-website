@@ -1,0 +1,824 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline:0;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+    box-shadow: none;
+}
+h1,h2,h3,h4,h5,h6,header,footer{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.img{
+    background: url(../image/cricle.png);
+    background-repeat: no-repeat;
+    
+    
+}
+.text{
+    text-transform: uppercase;
+    font-size:50px;
+    font-family: "Montserrat", serif;
+    font-weight:700;
+    margin-top: 150px;
+    margin-bottom: 46px;
+    
+}
+.text-2{
+    font-family: "Lato", serif;
+    font-size:13px;
+    font-weight: 400;
+
+}
+.btm button{
+    width: 179px;
+    height: 55px;
+    margin-left: 18px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    
+}
+.contact{
+    color:#000;
+    font-size:18px;
+}
+.shadow-img {
+    margin-left: 33px;
+    margin-top: 13px;
+}
+.img_shadow{
+    background: url(../image/o.png);
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -2;
+    /* background: url(../image/small-o.png);
+    background-repeat: no-repeat; */
+    
+}
+.small-cricle{
+    z-index:-2;
+}
+.image_samll img {
+    margin-left: 76%;
+    margin-top: 163px;
+    position: relative;
+}
+.img_shadow img{
+    margin-left: -163px;
+}
+.row{
+    --bs-gutter-x:0;
+}
+/* font-family: "Montserrat", serif; */
+/* font-family: "Lato", serif; */
+/* Navber css strat  */
+
+.navbar{
+    background-color: black!important;
+    
+}
+.nav-link{
+    color: #fff !important;
+    margin-left: 35px !important;
+    text-transform: uppercase!important;
+}
+.navbar-nav{
+    margin-left: 95px;
+}
+.active{
+    color:yellow !important;
+}
+/* Navber css end  */
+
+/* page 1 css strat  */
+.background{
+    
+    background-image: url(../image/about.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    margin-top:95px;
+}
+.first-page-heahing{
+    text-align: center;
+   
+}
+.head-2 p{
+    padding: 0 150px;
+}
+.head{
+    font-family: "Montserrat", serif;
+    font-weight:800;
+    font-size:36px;
+    margin-top:60px;
+}
+.s-head-3{
+    margin-top: 20px;
+}
+.about-cont{
+    position: relative;
+}
+.about-cricle{
+    position: absolute;
+    left: 0;
+    width:20%;
+    z-index: -1;
+    margin-block-start: -175px;
+}
+.man{
+    z-index: -1;
+    position: relative;
+}
+
+.btn{
+    background-color: black;
+    color:yellow;
+    width:226px;
+    height:60px;
+    
+   
+    
+}
+.btn-1{
+    background-color:yellow;
+    width:226px;
+    height:60px;
+    border-radius: 8px;
+    color:black;
+    margin:20px;
+     
+}
+.button :hover{
+    outline: none;
+}
+.button{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.start{
+    margin-top: 80px;
+   
+}
+.about-content{
+    background-color: black;
+    margin-left: 40px;
+    width: 360px; 
+    height:480px;
+    
+    
+}
+.about-content-2{
+    background-color:#ffe400;
+    margin-left: 20px;
+    padding: 0 12px;
+    width: 360px;
+    height:480px;
+}
+.about-content-3{
+    background-color: #000;
+    /* margin-left: 20px; */
+    width: 360px;
+    height:480px;
+}
+.about-content-2 h2{
+    color:#fff;
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    margin-top:40px ;
+    margin-bottom: 36px;
+
+}
+.about-text{
+    color:white;
+    margin-top:40px;
+}
+.about-text-2{
+    color:#fff;
+}
+
+.ipad-cont{
+    position: relative;
+}
+.ipad{
+    right: 0;
+    position: absolute;
+}
+
+.here{
+    text-align: center;
+    font-family: "Montserrat", serif;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 115px 0;
+    margin-right: 130px;
+   
+}
+.div-1{
+    font-family: "Montserrat", serif;
+    font-size:46px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.p-text-1{
+    font-family: "Montserrat", serif;
+    font-size:13px;
+    font-weight: 500;
+}
+.parchentens{
+    margin-bottom: 140px;
+}
+/* page 1 css end  */
+
+/* page 3 css strat  */
+.thrd-page{
+    background-color:#fafafa;
+}
+.b-img {
+    margin-top: 160px;
+}
+.t-p-text{
+    text-transform: capitalize;
+    font-family: "Montserrat", serif;
+    font-size:26px;
+    font-weight: 500;
+    margin-block-start: -25px;
+
+}
+.t-p-text-1{
+    font-family: "Montserrat", serif;
+    font-size:16px;
+    font-weight: 300;
+    padding: 25px 0;
+}
+.t-p-i-text {
+    margin-left: -35px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.t-p-i-text a{
+    color:#757575;
+    padding: 0 5px 0 0!important;
+   
+}
+.bnt{
+    border: none;
+    background-color: #ffe400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height:50px;
+    margin-top:30px;
+    margin-bottom:100px;
+    text-transform: uppercase;
+    color:#000;
+}
+.magic{
+    background-image: url(../image/magic-o.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-left: 50px ;
+    margin-top: 130px;
+   
+}
+/* page 3 css end */
+/* page 4 css strat  */
+.center{
+    text-align: center;
+}
+.bnt-img{
+    margin-top:160px;
+    margin-bottom:35px;
+}
+.ban-text{
+    color:#fff;
+}
+.text-name{
+    text-transform: uppercase;
+    font-size:44px;
+    font-weight: 600;
+    margin-bottom:30px;
+    font-family: "Montserrat", serif;
+}
+.banner {
+    background-image: url(../image/gril.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.ban-overlay{
+    background-color: rgba(0, 0, 0,0.6 );
+}
+.bab-btn{
+    width: 150px;
+    height:50px;
+    border: solid 2px rgb(252, 245, 245);
+    background: none;
+}
+.bab-btn a{
+    color:#fff;
+    text-transform: capitaliz;    
+}
+.hover{
+    margin-top: 24px;
+    margin-bottom:120px;
+}
+.hover :hover {
+    background-color: #ffe400;
+}
+/* page 4 css end  */
+/* page 5 css strat  */
+.bak-img{
+    text-align:center;
+    margin-top:125px;
+}
+.five-text{
+    margin-block-start: -21px;
+    font-family: "Montserrat", serif;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+.bol-head{
+    font-family: "Montserrat", serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    text-transform: capitalize;
+}
+.lorem-text{
+    font-family: "Montserrat", serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 50px;
+   
+}
+/* page 5 css end  */
+/* page 6 css strat  */
+.six-img{
+    background-color: #ffe400;
+    text-align: center;
+    width:100%;
+    height: 232px;
+}
+.windo-main{
+    position: relative;
+}
+.windo-pic{
+    position: absolute;
+    /* right: 0; */
+   
+}
+.button-parents{
+    position: relative;
+}
+.btn-chayeld{
+    position: absolute;
+    left:0px;
+   
+   
+}
+.work{
+    margin-top: 50px;
+}
+.hedar{
+    text-transform: uppercase;
+    font-family: "Montserrat", serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-block-start: -22px;
+    margin-bottom: 30px;
+
+}
+.win-color {
+    width: 40px;
+    height: 37px;
+    background-color: #000;
+    right: 12px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-chayeld button{
+    width: 100px;
+    height: 37px;
+    background: none;
+}
+.btn-chayeld button a{
+    color:#000;
+    text-transform: capitalize;
+}
+/* page 6 css end */
+/* page 7 css strat  */
+.page-main{
+    position: relative;
+}
+.seven-page{
+    background-image: url(../image/ser.png);
+    position: relative;
+    background-repeat: no-repeat;
+    /* background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 30px; */
+}
+.clent-text {
+    margin-top: 63px;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+.part-7-img{
+    background-image: url(../image/tim.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+.nasim-bk{
+    margin-top: 100px;
+}
+.border-1{
+    border-left: 1px solid black;
+    border-bottom: 2px solid black;
+    /* padding: 51px 52px; */
+}
+.border-2 {
+    border-top: 0.1px solid black!important;
+    margin-top: -8px;
+    /* padding: 51px 52px; */
+}
+.border-3 {
+    margin-top: -8px;
+    border-left: 1px solid black!important;
+    /* padding: 51px 52px;
+     */
+}
+/* .border-non{
+    padding: 51px 52px;
+   
+} */
+.head-logo-6{
+    margin-left: 18px;
+}
+.ttxt-1{
+    padding:0 18px;
+    margin-bottom: 51px;
+}
+.set-padding{
+    margin-left: 29%;
+    margin-bottom:30px;
+}
+.set-padding-2{
+    margin-left: 29%;
+    margin-bottom:18px;  
+}
+.set-top{
+    margin-top: 30px;
+}
+.top-pad{
+    margin-top: 7%;
+}
+.trim-photo{
+    z-index: -1;
+}
+/* page 7 css end  */
+/* page eight css strat  */
+/* .page-eight{
+     background-image:url(../image/yelloy-bg.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    z-index: -2;
+    position: absolute;
+} */
+/* .img{
+    padding: 0 30%;
+} */
+ /* .dox{
+    width: 360px;
+    height:700px;
+    background-color: #c5c2c2;
+   margin-left: 20px;
+   position: relative;
+   z-index: -2;
+}
+.page-eight-img{
+    background-image: url(../image/small-pic-1.png);
+    position: relative;
+   z-index: -1;
+ }  */
+
+
+
+/* page eight css end  */
+
+/* page 9 css strat  */
+.page-nine{
+    position: relative;
+}
+.background-image-9 {
+    margin-left: 40%;
+    margin-top: -145px;
+    position: absolute;
+}
+.text-9 {
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: -34px;
+    margin-left: 75px;
+}
+.up-bottom{
+    margin-top: 300px;
+}
+.tim-text {
+    height: 93px;
+    background-color: #d1d1d1d1;
+    margin-bottom: 130px;
+}
+.gaf{
+    width: 100%;
+    margin-bottom:5px;
+}
+.name{
+    text-transform: uppercase;
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    text-align:center;
+}
+.unde-line {
+    margin-bottom: 22px;
+    margin-left: 28px;
+}
+.unde-line-2 {
+    margin-bottom: 22px;
+    margin-left: 28px;
+}
+.profesion {
+    text-transform: uppercase;
+    margin-block-start: -14px;
+    text-align: center;
+    font-size: 13px;
+}
+.midil-div{
+    
+    background-color: #ffe400;
+    height: 553px;
+    margin: 0 5px;
+}
+.head-name {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 123px;
+}
+.head-text {
+    text-align: justify;
+    padding: 65px 49px;
+    border-bottom: 2px solid #fff;
+}
+.socal-icons-9 ul {
+    display: inline-flex;
+    margin-left: 12%;
+    margin-top: 13px;
+}
+.socal-icons-9 a{
+    margin-left:20px;
+    color:black;
+}
+/* page 9 css end  */
+/* page ten css strat  */
+.page-ten{
+    background-image: url(../image/banner-photo.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    position: absolute;
+
+}
+
+.ten-p-text{
+    font-family: "Lato", serif;
+    font-weight:700;
+    font-size: 30px;
+    margin-top:100px;
+    color:#fff;
+
+}
+.text-c-10{
+    text-align: center;
+}
+.ten-p-text-2 {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 100px;
+    line-height: normal;
+}
+.buy-btn button{
+    width: 150px;
+    height:50px;
+    margin-left: 8px;
+    margin-bottom: 113px;
+    
+
+}
+.act{
+    background-color: #ffe400;
+}
+.buy-btn button a{
+    color:#000;
+    text-transform: uppercase;  
+}
+.buy-btn :hover{
+    background-color: #ffe400;
+}
+/* page ten css end  */
+/* page 11 css strat  */
+.sub-div{
+    background-image: url(../image/news.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 500px;
+    margin-bottom: 50px;
+}
+.text-head {
+    padding-top: 38px;
+    font-family: "Montserrat", serif;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.date {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 120px;
+    min-height: 30px;
+    background-color: #d1d1d1;
+    border-radius: 30px;
+    margin-block-start: -20px;
+    margin-left: 24%;
+}
+.possion{
+    text-align: center;
+    margin-top: 20px;
+}
+.pos-nam {
+    text-transform: uppercase;
+    font-family: "Montserrat", serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.possion p {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 9.53px;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 2px;
+}
+.lorem-txt {
+    padding: 0 26px;
+}
+.boss{
+    position: relative;
+    z-index: -1;
+}
+.btn-more button {
+    text-transform: uppercase;
+    margin-left: 28%;
+    width: 107px;
+    height: 33px;
+    border-radius: 30px;
+    background-color: #d1d1d1;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+.btn-more button a {
+    color: #000;
+    font-size: 16px;
+}
+.btn-more :hover{
+    background-color: #ffe400;
+}
+.margin-11{
+    /* margin-top: 500px; */
+}
+/* page 11 css end  */
+
+/* page 12 css strat  */
+.page-towalev{
+    background-image: url(../image/background-pic.png);
+}
+.page-12-img {
+    text-align: center;
+    padding: 100px 0;
+}
+.contuct {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Montserrat", serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-block-start: -28px;
+}
+.form {
+    width: 565px;
+    height: 51px;
+    margin-bottom: 29px;
+    border:none;
+}
+input::placeholder{
+    text-transform: capitalize;
+    padding-left: 10px;
+ 
+    
+}
+.messege {
+    width: 98%;
+    height: 286px;
+    border:none;
+}
+.send button {
+    width: 89px;
+    height: 37px;
+    margin-top: 35px;
+    margin-bottom: 110px;
+    border: none;
+    background-color:#ffe400;
+}
+.send button a{
+    color:#000
+}
+
+/* page 12 css strat  */
+/* page 13 css strat  */
+.page-therten{
+    background-image: url(../image/map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.map {
+    text-align: center;
+    padding: 61px 0;
+}
+/* page 13 css end  */
+/* footer fist css strat  */
+.footer-fist{
+    background-color: #000;
+}
+.footer-marg{
+    margin-top: 67px;
+}
+.phone{
+    margin-left:53px;
+    margin-bottom:10px;
+}
+.phone-name{
+    color:white;
+}
+.sol-icon{
+    margin-top: 100px;
+    margin-bottom:110px;
+
+}
+.sol-icon a{
+    color:#fff;
+    margin-left:30px;
+}
+/* footer fist css end  */
+/* footer second css strat  */
+.footer-last{
+    background-color: #757575;
+}
+.last{
+    text-align: center;
+    color:#fff;
+    padding: 10px;
+}
+/* footer second css strat  */
+
+/* font-family: "Montserrat", serif; */
+/* font-family: "Lato", serif; */
